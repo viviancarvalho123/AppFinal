@@ -1,14 +1,14 @@
 <template>
     <div class="fundo-branco">
-      <img class="logo" :src="logo3" />
-      <img class="linha" :src="logo4" />
+      <img class="logo" :src="logo" />
+      <img class="linha" :src="linha" />
       <br />
       <br />
       <br />
       <ul class="noticias">
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo5" />
+            <img class="imgNoticia" :src="nt1" />
             <div>
               <div>
                 <a
@@ -26,13 +26,13 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo7" />
+            <img class="imgNoticia" :src="nt2" />
             <div>
               <div>
                 <a
@@ -53,13 +53,13 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo8" />
+            <img class="imgNoticia" :src="nt3" />
             <div>
               <div>
                 <a
@@ -80,13 +80,13 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo9" />
+            <img class="imgNoticia" :src="nt4" />
             <div>
               <div>
                 <a
@@ -106,13 +106,13 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo10" />
+            <img class="imgNoticia" :src="nt5" />
             <div>
               <div>
                 <a
@@ -132,13 +132,13 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo11" />
+            <img class="imgNoticia" :src="nt6" />
             <div>
               <div>
                 <a
@@ -159,13 +159,13 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
         <li class="n1">
           <a>
-            <img class="imgNoticia" :src="logo12" />
+            <img class="imgNoticia" :src="nt7" />
             <div>
               <div>
                 <a
@@ -185,7 +185,7 @@
           </a>
           <br />
           <br />
-          <img class="linhall" :src="logo6" />
+          <img class="linhall" :src="linhall" />
           <br />
           <br />
         </li>
@@ -198,31 +198,33 @@
   <script>
   import Voltar from "@/components/Voltar.vue";
   
-  import logo3 from "@/assets/img/tdahnewslogo.png"
-  import logo4 from "@/assets/img/linha.png"
-  import logo5 from "@/assets/img/nt1.jpg"
-  import logo6 from "@/assets/img/nt2.jpg"
-  import logo7 from "@/assets/img/nt3.jpg"
-  import logo8 from "@/assets/img/nt4.jpg"
-  import logo9 from "@/assets/img/nt5.jpg"
-  import logo10 from "@/assets/img/nt6.jpg"
-  import logo11 from "@/assets/img/nt7.jpg"
-  import logo12 from "@/assets/img/nt8.jpeg"
+  import logo from "@/assets/img/tdahnewslogo.png"
+  import linha from "@/assets/img/linha.png"
+  import linhall from "@/assets/img/linhall.png"
+  import nt1 from "@/assets/img/nt1.jpg"
+  import nt2 from "@/assets/img/nt2.jpg"
+  import nt3 from "@/assets/img/nt3.jpg"
+  import nt4 from "@/assets/img/nt4.jpg"
+  import nt5 from "@/assets/img/nt5.jpg"
+  import nt6 from "@/assets/img/nt6.jpg"
+  import nt7 from "@/assets/img/nt7.jpg"
+  import nt8 from "@/assets/img/nt8.jpeg"
 
 
   export default {
     data() {
     return {
-      logo3: logo3,
-      logo4: logo4,
-      logo5: logo5,
-      logo6: logo6,
-      logo7: logo7,
-      logo8: logo8,
-      logo9: logo9,
-      logo10: logo10,
-      logo11: logo11,
-      logo12: logo12,
+      logo: logo,
+      linha: linha,
+      linhall: linhall,
+      nt1: nt1,
+      nt2: nt2,
+      nt3: nt3,
+      nt4: nt4,
+      nt5: nt5,
+      nt6: nt6,
+      nt7: nt7,
+      nt8: nt8,
     };
   },
     name: "TDAHNews",
@@ -243,13 +245,13 @@
   }
   
   .logo {
-    width: 390px;
+    width: 370px;
     height: 150px;
     margin-bottom: 5px;
     justify-content: center;
   }
   .linha {
-    width: 400px;
+    width: 370px;
     margin-bottom: 5px;
     justify-content: center;
   }

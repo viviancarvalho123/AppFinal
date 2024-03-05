@@ -65,7 +65,7 @@
   }
   
   .imgsobre {
-    border-radius: 500px;
+    border-radius: 400px;
     max-width: 80%;
     max-height: 50%;
     width: auto;
