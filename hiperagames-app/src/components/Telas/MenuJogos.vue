@@ -58,7 +58,7 @@
         this.$router.push({
           name: "Jogostelas",
           params: {
-            url: "https://viviancarvalho123.github.io/HiperaGames_Tetris/",
+            url: "https://viviancarvalho123.github.io/JogoBlocos/",
           },
         });
       },
