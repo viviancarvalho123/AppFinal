@@ -9,14 +9,14 @@
           <h3 class="subtitulo">equipe hiperagames</h3>
           <p class="descricao">
             Somos uma equipe de desenvolvedores <br />
-            de aplicativos de jogos, somos compostos por 5 integrantes 3 alunas e
-            2 professores. Esse aplicativo é o nosso prejeto de TCC, que tem como
+            de aplicativos de jogos, somos compostos por 4 integrantes 3 alunas e
+            1 professores. Esse aplicativo é o nosso prejeto de TCC, que tem como
             objetivo falar sobre um transtorno que esta sendo diagnoticados em
             varias criaças no mundo. Tem também jogos que podem ajudar em tudo que
             é relacionado ao transtorno. Esse projeto esta sendo desenvolvido por
             1 ano e meio. primeiramente a ideia era ser só u trabalho par
             FECIFRON-PP mas depois todos adoraram a ideia e acabou sendo nosso
-            projeto definitivo.Ganhador de 1° Lugar e 2° Lugar da Fecifron 23.
+            projeto definitivo.Ganhador de 1° Lugar na categoria multidisciplinar e 2° Lugar no quadro geral da Fecifron 23.
           </p>
         </div>
       </div>
